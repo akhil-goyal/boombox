@@ -1,0 +1,265 @@
+  /* -------------------------- Fonts Used ------------------------- */
+  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+  /* ---------------------------------------------------------------- */
+
+
+
+
+  /* --------------------------- Fonts Used ------------------------- */
+  :root {
+    --main-font: 'Lato', sans-serif;
+    --cursive-font: 'Dancing Script', cursive;
+  }
+  /* ---------------------------------------------------------------- */
+
+
+
+
+  /* -------------------------- Colors Used ------------------------ */
+  :root {
+    --primary-color: #8a13b9;
+    --secondary-color: #210654;
+    --dark-color: #000;
+    --light-color: #333;
+    --white-color: #fff;
+    --light-border: #d3d3d3;
+  }
+  /* ---------------------------------------------------------------- */
+
+
+
+
+   /* ------------------------- Scroll Bar ----------------------- */
+
+  /* Scrollbar Width */
+  ::-webkit-scrollbar {
+    width: 17px;
+  }
+
+  /* Scrollbar Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px transparent; 
+    border-radius: 10px;
+  }
+  
+  /* Scrollbar Thumb */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(70, 42, 138); 
+    border-radius: 10px;
+  }
+
+  /* On hovering at Scrollbar */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(70, 42, 138); 
+  }
+  /* ---------------------------------------------------------------- */
+
+
+
+
+  /* ------------------------- Basic Resets ----------------------- */
+  * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: var(--main-font);
+    color: var(--light-color);
+    line-height: 1.6;
+  }
+
+  h1,
+  h2 {
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 10px 0;
+  }
+
+  p {
+    margin: 10px 0;
+  }
+
+  a {
+    text-decoration: none;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  img {
+    width: 100%;
+  }
+  /* ---------------------------------------------------------------- */
+
+
+
+  /* ------------------------- Layout Elements ----------------------- */
+  .container {
+    max-width: 1400px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0 40px;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
+  .grid-1 {
+    grid-template-columns: 1fr;
+  }
+
+  .grid-3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .grid-5 {
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+  .flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
+  .card {
+    color: var(--white-color);
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    padding: 10rem 0;
+  }
+  /* ---------------------------------------------------------------- */
+
+
+
+
+  /* --------------------------- Text Sizes ------------------------- */
+  .lead-text {
+    font-size: 20px;
+  }
+
+  .xl-text {
+    font-size: 4rem;
+  }
+
+  .lg-text {
+    font-size: 3rem;
+  }
+
+  .md-text {
+    font-size: 2rem;
+  }
+  
+  .sm-text {
+    font-size: 1rem;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  /* ---------------------------------------------------------------- */
+
+
+
+  /* ----------------------------- Margins --------------------------- */
+  .my-1 {
+    margin: 1rem 0;
+  }
+  
+  .my-2 {
+    margin: 1.5rem 0;
+  }
+  
+  .my-3 {
+    margin: 2rem 0;
+  }
+  
+  .my-4 {
+    margin: 3rem 0;
+  }
+  
+  .my-5 {
+    margin: 4rem 0;
+  }
+
+  .my-auto{
+    margin: 0 auto;
+  }
+  
+  .m-1 {
+    margin: 1rem;
+  }
+  
+  .m-2 {
+    margin: 1.5rem;
+  }
+  
+  .m-3 {
+    margin: 2rem;
+  }
+  
+  .m-4 {
+    margin: 3rem;
+  }
+  
+  .m-5 {
+    margin: 4rem;
+  }
+  /* ---------------------------------------------------------------- */
+
+
+
+   /* ---------------------------- Paddings -------------------------- */
+  .py-1 {
+    padding: 1rem 0;
+  }
+  
+  .py-2 {
+    padding: 1.5rem 0;
+  }
+  
+  .py-3 {
+    padding: 2rem 0;
+  }
+  
+  .py-4 {
+    padding: 3rem 0;
+  }
+  
+  .py-5 {
+    padding: 4rem 0;
+  }
+  
+  .p-1 {
+    padding: 1rem;
+  }
+  
+  .p-2 {
+    padding: 1.5rem;
+  }
+  
+  .p-3 {
+    padding: 2rem;
+  }
+  
+  .p-4 {
+    padding: 3rem;
+  }
+  
+  .p-5 {
+    padding: 4rem;
+  }
+  /* ---------------------------------------------------------------- */
